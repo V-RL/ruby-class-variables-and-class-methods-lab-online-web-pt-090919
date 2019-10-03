@@ -28,7 +28,9 @@ end
   
   def self.genre_count 
     hash = {}
-   @@genres.each {|genre| hash[genre] << }
+    x = 1
+   @@genres.each {|genre| hash[genre] << x }
+   if 
   end
 
   def self.artist_count
