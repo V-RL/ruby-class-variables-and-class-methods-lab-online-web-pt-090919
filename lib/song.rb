@@ -30,8 +30,8 @@ end
     hash = {}
     x = 1
    @@genres.each {|genre| hash[genre] << x }
-   if hash[genre] == true 
-     hash[genre] << 
+   if hash[genre] == @genre
+     hash[genre] << i
      
   end
 
