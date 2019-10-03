@@ -39,6 +39,15 @@ end
   end
 
   def self.artist_count
+      hash = {}
+   @@artists.each {|artist|
+   if hash[artist] 
+     hash[artist] = (hash[artist] + 1)
+   else
+     hash[artist] = 1
+   end
+   }
+   hash
   end
 end
   
