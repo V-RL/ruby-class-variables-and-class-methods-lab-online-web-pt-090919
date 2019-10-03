@@ -32,6 +32,7 @@ end
    @@genres.each {|genre| hash[genre] << x 
    if hash[genre] 
      x += 1
+     
    end
   end
 
