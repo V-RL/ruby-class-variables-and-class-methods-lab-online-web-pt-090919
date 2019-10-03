@@ -32,7 +32,7 @@ end
    @@genres.each {|genre| hash[genre] << x }
    if hash[genre] == @genre
      hash[genre] << i
-     
+   end
   end
 
   def self.artist_count
