@@ -29,7 +29,7 @@ end
   def self.genre_count 
     hash = {}
     x = 1
-   @@genres.each {|genre| hash[genre] << x }
+   @@genres.each {|genre| hash[genre] << x 
    if hash[genre] 
      hash[genre] << i
    end
