@@ -30,7 +30,7 @@ end
     hash = {}
    @@genres.each {|genre|
    if hash[genre] 
-     hash[genre] + (hash[genre] + 1)
+     hash[genre] = (hash[genre] + 1)
    else
      hash[genre] = 1
    end
