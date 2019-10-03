@@ -28,7 +28,6 @@ end
   
   def self.genre_count 
     hash = {}
-    x = 1
    @@genres.each {|genre|
    if hash[genre] 
      hash[genre] + (hash[genre] + 1)
