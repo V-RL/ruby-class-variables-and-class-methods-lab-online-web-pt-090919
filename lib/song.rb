@@ -26,7 +26,8 @@ end
     @@artists.uniq
   end
   
-  def self.genre_count  
+  def self.genre_count 
+    hash = 
    @@genres.each {|y|
   end
 
