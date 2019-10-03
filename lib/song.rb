@@ -27,7 +27,7 @@ end
   end
   
   def self.genre_count  
-   @@genres.each {|
+   @@genres.each {|y|
   end
 
   def self.artist_count
