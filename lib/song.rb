@@ -27,7 +27,7 @@ end
   end
   
   def self.genre_count 
-    hash = 
+    hash = {}
    @@genres.each {|y|
   end
 
